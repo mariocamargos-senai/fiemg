@@ -18,7 +18,7 @@ public class Conexao {
             con = DriverManager.getConnection(URL, USER, PASS);
             return con;
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e);
+            JOptionPane.showMessageDialog(null, "Erro ao conectar: "+e);
         }
         return null;
     }
