@@ -27,7 +27,7 @@ public class Conexao {
         try {
             con.close();
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Erro:"+e);
+            JOptionPane.showMessageDialog(null, "Erro ao desconectar:"+e);
         }
     }
 }
